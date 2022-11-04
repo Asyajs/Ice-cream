@@ -1,0 +1,198 @@
+.main-section {
+  margin-top: 120px;
+}
+
+// first-box
+.main-box {
+  position: relative;
+  height: 485px;
+  margin-top: 120px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  background-color: $secondary-bg-color;
+
+  @media screen and (min-width: 768px) {
+    width: 220px;
+    height: 560px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 335px;
+    // height: 735px;
+  }
+}
+
+.main-tablet-box {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+// second-box 
+.main-box-second {
+  position: relative;
+  height: 485px;
+  margin-top: 120px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  background-color: $first-product-color;
+
+  @media screen and (min-width: 768px) {
+    width: 220px;
+    height: 560px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 335px;
+    // height: 735px;
+  }
+}
+
+// third-box 
+.main-box-third {
+  position: relative;
+  height: 485px;
+  margin-top: 120px;
+  margin-bottom: 100px;
+  border-radius: 25px;
+  background-color: $second-product-color;
+  @media screen and (min-width: 768px) {
+    width: 220px;
+    height: 560px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 335px;
+    // height: 735px;
+  }
+}
+
+.main-box-text {
+  font-family: 'Titan One';
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFA5BA;
+
+  @media screen and (min-width:1200px) {
+  font-size: 30px;
+  line-height: 34px;
+  }
+}
+
+.main-box-accent {
+  margin-top: 15px;
+  font-family: 'Titan One';
+  font-size: 34px;
+  line-height: 39px;
+  text-align: center;
+  text-transform: uppercase;
+  color: $accent-color;
+
+  @media screen and (min-width:1200px) {
+    font-size: 58px;
+    line-height: 66px;
+  }
+}
+
+.icecream-box {
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  top: -125px;
+  left: 0;
+  @media screen and (min-width: 768px){
+    left: -12px;
+  }
+
+  @media screen and (min-width:1200px) {
+    left: 5px;
+  }
+}
+
+.product-icecream {
+  margin: 0 auto;
+  height: 250px;
+}
+
+.ice-box {
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  top: -105px;
+  left: 0;
+  @media screen and (min-width: 768px){
+    left: -12px;
+  }
+
+  @media screen and (min-width: 1200px){
+    left: 5px;
+  }
+}
+
+.products {
+  position: absolute;
+  z-index: 4;
+  margin-top: 160px;
+}
+
+.product-text {
+  margin-bottom: 30px;
+  padding: 0 40px;
+
+  font-family: 'Titan One';
+  font-size: 20px;
+  line-height: 1,15;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: $main-text-color;
+
+  @media screen and (min-width:1200px){
+    font-size: 30px;
+    line-height: 34px;
+  }
+}
+
+.product-main-icon{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+  
+.main-icon{
+  width: 6px;
+  height: 6px;
+  fill: #FFFFFF;
+  margin-right: 5px;
+}
+  
+.product-text-main {
+  padding: 0 40px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 152%;
+
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: $main-text-color;
+
+  @media screen and (min-width:1200px){
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 176%;
+  }
+}
+
+.product-button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+
+  width: 40px;
+  height: 40px;
+
+  border: none;
+  background-color: transparent;
+}
+
+
+

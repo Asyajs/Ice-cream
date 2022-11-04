@@ -1,0 +1,247 @@
+// section user
+
+.section-user{
+  padding-top: 125px;
+  background-color: #FFF5F6;
+
+  @media screen and (min-width: 768px) {
+    position: relative;
+  }
+ }
+
+.user-title {
+  margin-bottom: 15px;
+  font-family: 'Titan One';
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFA5BA;
+  @media screen and (min-width: 1200px){
+    font-size: 30px;
+    line-height: 34px;
+  }
+}
+
+.user-accent {
+  margin-bottom: 25px;
+  font-family: 'Titan One';
+  font-size: 34px;
+  line-height: 39px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: $accent-color;
+  @media screen and (min-width: 1200px){
+    font-size: 58px;
+    line-height: 66px;
+  }
+}
+
+.cow-background {
+  @media screen and (min-width: 1200px){
+    width: 515px;
+    margin-left: 110px;
+  }
+}
+
+.user-tablet {
+  @media screen and (min-width: 768px){
+    width: 340px;
+    position: absolute;
+    top: 200px;
+    right: 130px;
+  }
+
+  @media screen and (min-width: 1200px){
+    top: 265px;
+    right: 175px;
+  }
+}
+
+.user-back{
+  background-image: none;
+  @media screen and (min-width: 1200px) {
+    background-image: url(/images/sectionbg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: 190px;
+  }
+}
+
+.user-box {
+  background-image: url(/images/bgc.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  @media screen and (min-width: 768px){
+    background-image: none;
+  }
+}
+
+.user-subtitle {
+  padding: 0 30px;
+  font-weight: 500;
+  font-size: 12px;
+  color: #000000;
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  @media screen and (min-width: 768px){
+    font-size: 14px;
+    padding: 0 15px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 16px;
+    width: 460px;
+  }
+}
+
+.user-undertitle {
+  padding: 0 30px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 162%;
+  color: #907E82;
+  padding-bottom: 20px;
+  @media screen and (min-width: 768px){
+    font-size: 14px;
+    padding: 0 15px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    width: 460px;
+  }
+}
+
+.user-minititle {
+  padding: 0 30px;
+
+  margin-bottom: 30px;
+
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 162%;
+  color: #907E82;
+
+  @media screen and (min-width: 768px){
+    font-size: 14px;
+    padding: 0 15px;
+  }
+}
+
+.user-button {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  width: 176px;
+  height: 44px;
+  border-radius: 22px;
+  border: none;
+
+  background: #FFFFFF;
+  color: $accent-color;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.user-choice_tablet {
+  @media screen and (min-width: 768px) {
+  display: flex;
+  margin-top: 170px;
+  justify-content: space-between;
+  }
+  @media screen and (min-width: 1200px) {
+  margin-left: 100px;
+  padding-bottom: 120px;
+  }
+}
+
+.user-choice {
+  margin-bottom: 35px;
+}
+
+.user-choice-last {
+  margin-bottom: 35px;
+  padding-bottom: 95px;
+}
+
+.icon-image {
+  height: 50px;
+  width: 30px;
+  margin-bottom: 15px;
+}
+
+.icon-image-user{
+  height: 50px;
+  width: 50px;
+  margin-bottom: 15px;
+}
+
+.icon-text {
+  font-family: 'Titan One';
+  font-size: 36px;
+  line-height: 41px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: $accent-color;
+  margin-bottom: 10px;
+  @media screen and (min-width: 768px) {
+    font-size: 48px;
+  }
+
+  @media screen and (min-width: 1200px){
+  font-size: 58px;
+  line-height: 66px;
+  }
+}
+
+.icon-subtitle {
+font-weight: 700;
+font-size: 12px;
+color: #000000;
+@media screen and (min-width: 768px) {
+  font-size: 14px;
+  }
+  @media screen and (min-width: 1200px) {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 176%;
+  }
+}
+
+.user-background {
+  width: 100%;
+  height: 120px;
+  margin: 0 auto;
+  @media screen and (min-width: 768px) {
+  height: 260px;
+  }
+  @media screen and (min-width: 1200px) {
+    height: 400px;
+  }
+}
+
+.user-pic {
+  position: relative;
+  bottom: 85px;
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+}
+
+// user- galary 
+
+.ice-user_thumb {
+  display: none;
+  
+  @media screen and (min-width: 768px){
+  display: flex;
+  justify-content: space-around;
+  }
+}
+
+.bla{
+border-radius: 22px;
+}

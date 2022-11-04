@@ -1,0 +1,129 @@
+.variables {
+  @media screen and (min-width:1200px){
+    margin-top: 130px;
+  }
+}
+
+.variables-image {
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.variables-box{
+  background-color: #FAFAFA;
+  width: 280px;
+  height: 308px;
+ 
+  margin: 0 auto;
+  margin-bottom: 30px;
+
+  background-image: url(../images/pre-footer.png);
+  background-repeat: no-repeat;
+  background-position: center;
+
+  @media screen and (min-width: 768px) {
+    background-image: none;
+    width: 620px;
+    height: 165px;
+  }
+
+  @media screen and (min-width: 1200px){
+    width: 960px;
+    height: 130px;
+  }
+}
+
+.variables-div {
+  background-image: url(../images/coma.png);
+  background-repeat: no-repeat;
+
+  @media screen and (min-width: 768px) {
+    background-position-x: 10%;
+    background-position-y: 25%;
+  }
+}
+.variables-title {
+  width: 160px;
+  margin: 0px auto;
+  padding-top: 25px;
+
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 2.5em;
+  text-align: center;
+  color: #000000;
+
+  @media screen and (min-width: 768px) {
+    width: 460px;
+    padding-top: 45px;
+    font-size: 14px;
+    line-height: 216%;
+    text-align: center;
+    letter-spacing: 0.04em;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 750px;
+    font-size: 16px;
+    line-height: 186%;
+  }
+}
+
+// lines
+.variables-line {
+  @media screen and (min-width: 768px) {
+    width: 524px;
+    margin: 0 auto;
+  }
+}
+
+.variables-thumb {
+  display: flex;
+  justify-content: center;
+}
+
+.variables-icon {
+  margin-right: 10px;
+  width: 4px;
+  height: 4px;
+  fill: $accent-color;
+}
+
+.variables-thumb_title {
+  margin-top: 15px;
+  margin-bottom: 25px;
+
+  font-weight: 500;
+  text-align: center;
+  color: #000000;
+  
+  @media screen and (min-width:1200px){
+    font-size: 20px;
+  }
+}
+
+.icons-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 85px;
+}
+
+.variables-thumb-icon {
+  margin-right: 15px;
+  height: 12px;
+  width: 12px;
+  fill: $accent-color;
+
+  // &:hover {
+  //   fill: $accent-color;
+  // }
+}
+
+.variables-thumb-scroll {
+  margin-right: 15px;
+  height: 12px;
+  width: 12px;
+
+  fill: $icon-color;
+}
+
+
