@@ -77,9 +77,12 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.footer-thumb_link:not(:last-child) {
-  margin-right: 30px;
+.footer-thumb_link {
+  cursor: pointer;
+  
+  &:not(:last-child){
+    margin-right: 30px;
+  }
 }
 
 .footer-thumb_icon-git {
@@ -121,9 +124,13 @@
   font-weight: 700;
   font-size: 12px;
   color: #000000;
+  @media screen and (min-width: 768px) {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 186%;
+  }
   @media screen and (min-width: 1200px){
     font-size: 16px;
-    line-height: 186%;
   }
 }
 

@@ -144,6 +144,11 @@
   color: $accent-color;
   font-weight: 700;
   font-size: 14px;
+  cursor: pointer;
+  &:hover {
+    background: $accent-color;
+    color: $main-text-color
+  }
 }
 
 .user-choice_tablet {

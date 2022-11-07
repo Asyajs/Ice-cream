@@ -1,0 +1,178 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.modal {
+  position: absolute;
+  height: 435px;
+  width: 295px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: linear-gradient(
+  to right,
+  #edbdba,
+  #f784ae,
+  #f9b2d5);
+  @media screen and (min-width:768px) {
+    height: 580px;
+    width: 525px;
+  }
+}
+
+.modal-container {
+position: relative;
+}
+
+.close {
+position: absolute;
+top: 5px;
+right: 5px;
+border: 1px solid rgba(0, 0, 0, 0.1);
+border-radius: 55px;
+padding: 3px 6px;
+background-color: $main-bg-color;
+cursor: pointer; 
+}
+
+.modal-close {
+  width: 10px; 
+  height: 10px;
+ .close:hover & {
+    fill: $accent-color;
+  }
+}     
+  
+//   /* form-modal */
+  
+.form {
+  margin-left: auto;
+  margin-right: auto;
+  @media screen and (min-width:768px) {
+    width: 450px;
+  }
+}
+  
+.form-element {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  @media screen and (min-width:768px){
+    margin-left: 0%;
+  }
+}
+
+.form-label {
+  margin-bottom: 5px;
+  padding-top: 10px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: $modal-color;
+  @media screen and (min-width:768px) {
+    padding-top: 5px;
+    line-height: 10px;
+  }
+}
+  
+.form-input {
+  display: block;
+  // width: 100%;
+  height: 20px;
+  // padding-left: 42px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: border-color 250ms $transition-timing;
+  outline: none;
+  @media screen and (min-width:768px){
+  width: 100%;
+  height: 40px;
+  padding-left: 42px;
+  }
+  &:hover,
+  &:focus {
+    border-color: $accent-color;
+    }
+}
+  
+.form-box{
+  position: relative;
+}
+  
+.form-request {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 23px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  text-align: center;
+  color: $modal-color;
+  @media screen and (min-width: 768px){
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+.form-textarea {
+  margin-bottom: 5px;
+  padding-top: 10px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: $modal-color;
+  cursor: pointer;
+}
+
+.license-link {
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: $main-text-color;
+}
+
+.form-comment {
+  resize: none;
+  width: 185px;
+  height: 50px;
+  padding: 12px 16px;
+  margin-bottom: 10px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  @media screen and (min-width: 768px){
+    width: 448px;
+    height: 120px;
+  }
+  &:hover,
+  &:focus {
+    border-color: $accent-color;
+  }
+}
+
+.modal-send {
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+  margin-left:  auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  background-color: $accent-color;
+  color: $main-bg-color;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+}
+

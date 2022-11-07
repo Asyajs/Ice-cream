@@ -24,7 +24,7 @@
 .main-tablet-box {
   @media screen and (min-width: 768px) {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 }
 
@@ -192,6 +192,7 @@
 
   border: none;
   background-color: transparent;
+  cursor: pointer;
 }
 
 
